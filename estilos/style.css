@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #bf0707;
+    --cor2: #8c0707;
+    --cor3: #590202;
+    --cor4: #7f7f7f;
+    --cor5: #161616;
+}
+
+body{
+    background-color: black;
+    background-image: url(../imagens/20230426-ovicio-berserk-chapter.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header>div{
+    width: 217px;
+    height: 120px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+header img{
+    height: 120px;
+}
+
+nav{
+    text-align: center;
+    margin-top: 12px;
+}
+
+nav a{
+    padding: 3px 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: var(--cor5);
+    color: var(--cor1);
+}
+
+nav a:hover{
+    background-color: var(--cor4);
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+main{
+    max-width: 700px;
+    background-color: var(--cor5);
+    color: #fff;
+    margin: auto;
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 12px;
+}
